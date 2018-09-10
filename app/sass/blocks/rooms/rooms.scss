@@ -1,0 +1,166 @@
+
+  .appartments {
+     padding: 3rem 0 0;
+   }
+
+  .padding-top-bottom {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 0 1.5rem;
+  }
+
+  .rooms-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+
+  }
+
+  .room {
+    position: relative;
+    width: calc(50% - 3rem);
+    margin: 1.5rem;
+    border: 1px solid rgba(212, 212, 212, 0.3);
+
+    &__header {
+
+      position: relative;
+
+      &__item {
+        img {
+          display: block;
+          width: 100%;
+
+        }
+      }
+    }
+
+    &__description {
+
+      padding: 3rem;
+      font-size: 1.8rem;
+      color: #261909;
+
+    }
+
+    &__heading {
+
+      color: #261909;
+      font-size: 3.2rem;
+      margin: 0 0 2rem;
+    }
+
+    &__list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+
+      &--bett {
+        color: #261909;
+        font-weight: bold;
+      }
+    }
+
+
+    &__footer {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+      width: 100%;
+      padding: 3rem;
+      height: 14rem;
+      bottom: 0;
+      text-align: center;
+
+    &__price {
+        color: #261909;
+        font-size: 2rem;
+        text-align: right;
+        margin-bottom: 0.25em;
+
+
+      }
+    }
+
+    &__price--old {
+      opacity: 0.65;
+      font-size: 20px;
+      text-decoration:line-through
+
+    }
+
+    &__price--new {
+      font-size: 24px;
+      margin-left: 18px;
+    }
+
+    &.room--download {
+      padding-bottom: 14rem;
+    }
+
+  }
+
+  .button {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #fff!important;
+    background-color: #e50020;
+    border-color: #e50020;
+    padding: 0.6rem 1.4rem;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    text-decoration: none;
+
+    &--cta {
+      margin-top: 12px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 38px;
+      padding-right: 38px;
+    }
+
+    &--cta::after {
+      content: ' »';
+    }
+  }
+
+  .slick-n, .slick-p {
+    position:absolute;
+    top:40%;
+    right:0;
+    width:60px;
+    height:80px;
+    background: rgba(38,25,9,.4) url('../../../img/rooms-img/arrow-right.png') no-repeat center ;
+    background-size: 36px auto;
+    border:none;
+    z-index:5;
+    cursor: pointer;
+  }
+
+  .slick-p {
+    left:0;
+    transform: rotate(180deg);
+  }
+
+
+
+
+
+
+
+
+

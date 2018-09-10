@@ -1,0 +1,42 @@
+  footer {
+    background-color: #261909;
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+
+   .main-footer {
+
+     display: flex;
+     justify-content: space-between;
+     //align-items: center;
+
+     &__adress {
+       margin-top: 0;
+       padding-left: 0;
+       list-style: none;
+
+       a {
+         text-decoration: none;
+         color: #FFFFFF;
+       }
+     }
+
+     &__sitemap {
+       margin-top: 0;
+       padding-left: 0;
+       list-style: none;
+
+       a {
+         text-decoration: none;
+         color: #FFFFFF;
+       }
+     }
+
+     &__booking {
+
+
+     }
+
+   }
+
+  }

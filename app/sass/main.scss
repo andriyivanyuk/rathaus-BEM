@@ -1,0 +1,95 @@
+@import 'normalize';
+@import 'fonts';
+@import 'libs';
+@import 'vars';
+
+//BLOCKS
+@import 'blocks/header-wrapper/header-wrapper';
+@import 'blocks/slide-container/slide-container';
+@import 'blocks/title/title';
+@import 'blocks/content-wrap/content-wrap';
+
+@import 'blocks/rooms/rooms';
+@import 'blocks/all-information/all-information';
+@import 'blocks/zitate-review/zitate-review';
+@import 'blocks/contact-info/contact-info';
+@import 'blocks/review/review';
+@import 'blocks/footer/footer';
+
+@import 'font-awesome/scss/fontawesome';
+@import 'font-awesome/scss/fa-solid';
+@import 'font-awesome/scss/fa-brands';
+@import 'font-awesome/scss/fa-regular';
+
+@import 'slick-carousel/slick/slick';
+//@import 'slick-carousel/slick/slick-theme';
+
+
+*:focus {
+	outline: none;
+	//box-shadow: 0 0 3px 3px rgba($red, 0.4);
+}
+
+*::-webkit-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*:-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*::-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid{
+	color: #666;
+}
+
+html {
+	font-size: 9px;
+	width: 100%;
+	overflow-x: hidden;
+
+}
+
+body {
+    font-size: 16px;
+	line-height: 1.4;
+	font-family: $df;
+	color: black;
+	overflow-x: hidden;
+	opacity: 1;
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 0 1.5rem;
+}
+
+
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@import 'media'; // Всегда в конце

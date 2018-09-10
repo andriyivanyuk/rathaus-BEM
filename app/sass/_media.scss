@@ -1,0 +1,107 @@
+@import 'vars';
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.header{
+		//padding: 2rem;
+		&__lang{
+			left: 11rem;
+		}
+	}
+	.sitebar{
+		right: 0;
+	}
+	.section{
+		padding: 2rem;
+	}
+	.hero__cta{
+		&::before{
+			left: -3.6rem;
+		}
+		&::after{
+			left: -2.1rem;
+			width: .75rem;
+		}
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.header{
+		//padding: 1rem;
+		&__lang{
+			position: relative;
+			top: auto;
+			left: auto;
+		}
+		&__cta{
+			display: none;
+		}
+	}
+	.sitebar{
+		right: 0;
+		padding: 1.5rem 1rem;
+		right: auto;
+		left: 1.5rem;
+		max-width: calc(100% - 1.5rem);
+	}
+	.section{
+		padding: 1rem;
+		&__title{
+			margin-left: 0em;
+		}
+	}
+	.hero{
+		padding-top: 4rem;
+		padding-bottom: 10rem;
+		&__cta{
+			&::before, &::after{
+				display: none;
+			}
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	/**/
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	/**/
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+	/**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	/**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	/**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	/**/
+}

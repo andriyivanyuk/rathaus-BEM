@@ -1,0 +1,18 @@
+  .title {
+    font-size: 3.8rem;
+    color: #261909;
+    margin: 100px auto;
+    text-align: center;
+    max-width: 76rem;
+    margin-bottom: 32px;
+ }
+
+  .title::after {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    background-color: #FC0F3F;
+    transform: rotate(45deg);
+    margin: 3rem auto 1.5rem;
+}

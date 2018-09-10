@@ -1,0 +1,18 @@
+
+  .contact-info {
+
+    display: flex;
+
+    &__map {
+      width: 60%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__content {
+      width: 40%;
+      padding: 3rem;
+    }
+  }
